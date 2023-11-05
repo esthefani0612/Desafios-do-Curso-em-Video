@@ -1,0 +1,6 @@
+/* CSS HEX */
+--dark-violet: #8e2ac0ff;
+--african-violet: #9c86b9ff;
+--dark-purple: #32021fff;
+--powder-blue: #8dadc6ff;
+--cornsilk: #fcf0ccff;
