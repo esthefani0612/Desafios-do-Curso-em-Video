@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #ffffff, #98aabb, #8f80b3);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.foto_inicio h1{
+     font-size: 24pt;
+     color: #022858;
+     margin-left: 498pt;
+     margin-top: -104pt;
+}
+.foto_inicio img{
+    margin-bottom: 78pt;
+    width: 210pt;
+    height: 340pt;
+    border-radius: 10%;
+    margin-left: 204pt;
+    margin-top: -220pt;
+}
+.foto_inicio a img{
+    width: 32pt;
+    height: 25pt;
+    display: flex;
+    margin-left: 460pt;
+    margin-top: -8pt;
+}
+.foto_inicio p{
+    color: #022858;
+    display: flex;
+    justify-content: center;
+    font-size: 14.4pt;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 143pt;
+    margin-left: 157pt;
+}
+
+
+
+.informacao1{
+    flex-direction: column; 
+    margin-left: 270px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    border-radius: 30px;
+    width: 900px;
+    background-color: #E3F4FE;
+    margin-bottom: 20pt;
+}
+.informacao1 img{
+    width: 440px;
+    height: 250px;
+}
+.informacao1 p{
+    text-align: justify;
+    font-size: 16pt;
+    color: #022858;
+    width: 560pt;
+    margin-left: 15pt;
+    line-height: 30px;
+}
+
+
+.logo{
+    margin-bottom: 14pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    padding: 38px;
+    width: 47px;
+    height: 46px;
+}
