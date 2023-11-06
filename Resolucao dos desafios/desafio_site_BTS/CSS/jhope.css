@@ -16,22 +16,20 @@ body{
      font-size: 24pt;
      color: #022858;
      margin-left: 498pt;
-     margin-top: -104pt;
+     margin-top: -30pt;
 }
 .foto_inicio img{
-    margin-bottom: 78pt;
-    width: 210pt;
+    width: 209pt;
     height: 340pt;
     border-radius: 10%;
-    margin-left: 204pt;
-    margin-top: -220pt;
+    margin-left: 30pt;
+    margin-top: -230pt;
 }
 .foto_inicio a img{
     width: 32pt;
     height: 25pt;
-    display: flex;
     margin-left: 460pt;
-    margin-top: -8pt;
+    margin-top: -80pt;
 }
 .foto_inicio p{
     color: #022858;
@@ -40,8 +38,8 @@ body{
     font-size: 14.4pt;
     text-align: justify;
     line-height: 30px;
-    margin-top: 143pt;
-    margin-left: 157pt;
+    margin-top: 173pt;
+    margin-left: -200pt;
 }
 
 
@@ -81,4 +79,27 @@ body{
     padding: 38px;
     width: 47px;
     height: 46px;
+}
+
+
+.mang{
+    text-align: justify;
+    margin-bottom: 60pt;
+    margin-top: 60pt;
+    margin-left: 320pt;
+}
+.mang img{
+    width: 110pt;
+    height: 120pt;
+    margin-left: 70pt;
+}
+.mang h1{
+    font-size: 20pt;
+    color: #022858;
+}
+.mang p{
+    width: 460pt;
+    color: #022858;
+    font-size: 15pt;
+    line-height: 30px;
 }
