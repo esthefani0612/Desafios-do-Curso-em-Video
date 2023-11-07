@@ -2,11 +2,10 @@
 body{
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    margin: auto;
     height: 100vh;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom, #ffffff, #98aabb, #8f80b3);
+    background-image: linear-gradient(to bottom, #ffffff, #a1b7ff, #7e9cff);
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -16,7 +15,6 @@ body{
      font-size: 24pt;
      color: #022858;
      margin-left: 498pt;
-     margin-top: -30pt;
 }
 .foto_inicio img{
     width: 209pt;
@@ -25,11 +23,11 @@ body{
     margin-left: 30pt;
     margin-top: -230pt;
 }
-.foto_inicio a img{
-    width: 32pt;
+.a img{
+    width: 30pt;
     height: 25pt;
-    margin-left: 460pt;
-    margin-top: -80pt;
+    margin-left: 30pt;
+    margin-top: 30px;
 }
 .foto_inicio p{
     color: #022858;
@@ -49,15 +47,17 @@ body{
     margin-left: 270px;
     display: flex;
     align-items: center;
-    margin-bottom: 80px;
     border-radius: 30px;
     width: 900px;
-    background-color: #E3F4FE;
-    margin-bottom: 20pt;
+    background-color: #ffffff;
+    margin-bottom: 8pt;
+    box-shadow: 6px 6px 10px #495a94bd;
 }
 .informacao1 img{
     width: 440px;
     height: 250px;
+    margin-bottom: 12px;
+    border-radius: 10px;
 }
 .informacao1 p{
     text-align: justify;
@@ -70,10 +70,10 @@ body{
 
 
 .logo{
-    margin-bottom: 14pt;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -100px;
 }
 .logo img{
     padding: 38px;
@@ -84,14 +84,13 @@ body{
 
 .mang{
     text-align: justify;
-    margin-bottom: 60pt;
-    margin-top: 60pt;
-    margin-left: 320pt;
+    margin: auto;
 }
 .mang img{
     width: 110pt;
     height: 120pt;
     margin-left: 70pt;
+    margin-bottom: 60px;
 }
 .mang h1{
     font-size: 20pt;
