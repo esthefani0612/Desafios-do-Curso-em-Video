@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to bottom, #ffffff, #a1b7ff, #7e9cff);
+    margin: auto;
+    flex-direction: column;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-attachment: fixed;
+}
+
+
+
+h1{
+    font-size: 24pt;
+     color: #022858;
+     margin-left: 468pt;
+}
+
+
+
+.informacao{
+    display: flex;
+    align-items: center;
+    width: 730px;
+    margin-left: 60px;
+}
+.informacao img{
+    width: 270px;
+    height: 478px;
+    border-radius: 12px;
+}
+.informacao p{
+    padding: 20px;
+    color: #022858;
+    line-height: 30px;
+    font-size: 14.4pt;
+}
+
+
+.logos{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+.logos img{
+    padding: 40px;
+    width: 47px;
+    height: 46px;
+}

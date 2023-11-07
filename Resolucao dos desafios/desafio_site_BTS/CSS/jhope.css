@@ -23,12 +23,6 @@ body{
     margin-left: 30pt;
     margin-top: -230pt;
 }
-.a img{
-    width: 30pt;
-    height: 25pt;
-    margin-left: 30pt;
-    margin-top: 30px;
-}
 .foto_inicio p{
     color: #022858;
     display: flex;
@@ -73,10 +67,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: 0px;
 }
+
 .logo img{
-    padding: 38px;
+    padding: 40px;
     width: 47px;
     height: 46px;
 }
