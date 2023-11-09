@@ -1,18 +1,42 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
 body{
     background-image: linear-gradient(to bottom, #ffffff, #a1b7ff, #7e9cff);
     margin: auto;
     flex-direction: column;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     background-attachment: fixed;
 }
 
+.chimmy{
+    text-align: justify;
+    margin-left: 370px;
+}
+.chimmy h1{
+    font-size: 1.7em;
+    margin: auto;
+}
+.chimmy img{
+    width: 107pt;
+    height: 120pt;
+    margin-left: 70pt;
+    margin-bottom: 60px;
+}
+.chimmy p{
+    text-indent: 27px;
+    width: 460pt;
+    color: #022858;
+    font-size: 20px;
+    line-height: 30px;
+}
 
 
 h1{
-    font-size: 24pt;
-     color: #022858;
-     margin-left: 468pt;
+    font-family: 'Graduate', serif;
+    font-size: 2.5em;
+    color: #022858;
+    margin-left: 468pt;
 }
 
 
@@ -22,6 +46,7 @@ h1{
     align-items: center;
     width: 730px;
     margin-left: 60px;
+    margin-bottom: 60px;
 }
 .informacao img{
     width: 270px;
@@ -34,6 +59,55 @@ h1{
     line-height: 30px;
     font-size: 14.4pt;
 }
+
+
+
+.informacao2 {
+    align-items: center;
+    background-color: white;
+    box-shadow: 6px 6px 10px #495a94bd;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 8pt;
+    width: 900px;
+}
+.informacao2 img{
+    width: 270px;
+    height: 270px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+/*o seletor:nth-child(2) é usado para selecionar a segunda imagem dentro .informacao2*/
+.informacao2 img:nth-child(2){
+    width: 273px;
+    height: 333px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+/*Diminui a distância entre parágrafos*/
+.informacao2 p + p{
+    margin-top: 3px;
+}
+.informacao2 p{
+    text-indent: 27px; /*Espaçamento na 1ª linha*/
+    text-align: justify;
+    font-size: 1.3em;
+    color: #022858;
+    width: 560pt;
+    margin-left: 15pt;
+    line-height: 30px;
+}
+.informacao2 ul{
+    text-align: justify;
+    font-size: 1.3em;
+    color: #022858;
+    width: 526pt;
+    margin-left: 15pt;
+    line-height: 30px;
+}
+
 
 
 .logos{

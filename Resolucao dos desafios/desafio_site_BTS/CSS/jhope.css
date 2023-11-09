@@ -1,37 +1,40 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 body{
     display: flex;
     flex-direction: column;
     margin: auto;
     height: 100vh;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom, #ffffff, #a1b7ff, #7e9cff);
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to bottom, #ffffff, #a3b9ff, #7e9cff);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
+h1{
+    font-family: 'Graduate', serif;
+    font-size: 2.5em;
+    color: #022858;
+    margin-left: 468pt;
+}
 
-.foto_inicio h1{
-     font-size: 24pt;
-     color: #022858;
-     margin-left: 498pt;
+.foto_inicio{
+    display: flex;
+    align-items: center;
+    width: 730px;
+    margin-left: 60px;
 }
 .foto_inicio img{
-    width: 209pt;
-    height: 340pt;
-    border-radius: 10%;
-    margin-left: 30pt;
-    margin-top: -230pt;
+    width: 270px;
+    height: 478px;
+    border-radius: 12px;
+    margin-bottom: 60px;
 }
 .foto_inicio p{
+    padding: 20px;
     color: #022858;
-    display: flex;
-    justify-content: center;
-    font-size: 14.4pt;
-    text-align: justify;
     line-height: 30px;
-    margin-top: 173pt;
-    margin-left: -200pt;
+    font-size: 20px;
 }
 
 
@@ -53,9 +56,13 @@ body{
     margin-bottom: 12px;
     border-radius: 10px;
 }
+.informacao1 p+p{
+    margin-top: 3px;
+}
 .informacao1 p{
+    text-indent: 27px;
     text-align: justify;
-    font-size: 16pt;
+    font-size: 1.3em;
     color: #022858;
     width: 560pt;
     margin-left: 15pt;
@@ -88,12 +95,13 @@ body{
     margin-bottom: 60px;
 }
 .mang h1{
-    font-size: 20pt;
-    color: #022858;
+    margin: auto;
+    font-size: 1.7em;
 }
 .mang p{
+    text-indent: 27px;
     width: 460pt;
     color: #022858;
-    font-size: 15pt;
+    font-size: 20px;
     line-height: 30px;
 }
