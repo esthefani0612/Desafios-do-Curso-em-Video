@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to bottom, #ffffff, #a1b7ff, #7e9cff);
+    background-attachment: fixed;
+    margin: auto;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
