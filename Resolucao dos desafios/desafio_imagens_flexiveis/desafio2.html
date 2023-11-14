@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Graduate&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,800&display=swap');
+        body{
+            background-image: linear-gradient(to left, #05e2ab, rgba(29, 199, 156, 0.596));
+            text-align: center;
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+    <link rel="shortcut icon" href="imagens/chuva.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos Flexíveis</title>
+</head>
+<body>
+    <h1>Redimensione o tamanho da página!</h1>
+    <p>
+        Este desafio assim, como o desafio 'index', é sobre imagens flexíveis. <br>
+        Altere o tamanho da sua página e veja o que acontece &#128064; <!--emoji dos olhinhos-->
+    </p>
+    <picture>
+        <source media="(min-width: 1100px)" srcset="imagens/musicaG.jpg" type="image/jpg">
+        <source media="(min-width: 750px)" srcset="imagens/musicaM.jpg" type="image/jpg">
+        <!--na tag abaixo precisamos colocar a imagem base, que no caso é a pequena. -->
+        <img src="imagens/musicaP.jpg" alt="imagens de um celular">
+    </picture>
+
+</body>
+</html>
