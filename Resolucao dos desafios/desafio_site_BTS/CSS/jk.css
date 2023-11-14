@@ -1,8 +1,50 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
 body{
     background-image: linear-gradient(to bottom, #ffffff, #a1b7ff, #7e9cff);
     background-attachment: fixed;
     margin: auto;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
+}
+
+
+.informacao_inicial{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    color: #022858;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+.informacao_inicial img{
+    width: 300px;
+    height: 468px;
+    border-radius: 12px;
+}
+.informacao_inicial p{
+    line-height: 30px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+
+h1{
+    font-family: 'Graduate', serif;
+    font-size: 2.5em;
+    color: #022858;
+    margin-left: 448pt;
+}
+
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logos img{
+    width: 47px;
+    height: 46px;
+    padding: 40px;
 }
