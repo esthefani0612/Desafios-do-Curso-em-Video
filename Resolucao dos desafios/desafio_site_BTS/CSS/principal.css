@@ -10,7 +10,7 @@ body{
 .em_cima{
     
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom, #ffffff, #a1b7ff, #7e9cff);
+    background-image: linear-gradient(to bottom, #ffffff, #a1b7ffb0, #7e9cffd2);
 }
 .em_cima h1{
     font-family: Georgia, Times, 'Times New Roman', serif;

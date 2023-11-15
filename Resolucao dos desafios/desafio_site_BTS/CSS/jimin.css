@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 
 body{
-    background-image: linear-gradient(to bottom, #ffffff, #a1b7ff, #7e9cff);
+    background-image: linear-gradient(to bottom, #ffffff, #a1b7ffb0, #7e9cffd2);
     margin: auto;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
@@ -27,7 +27,7 @@ body{
     text-indent: 27px;
     width: 460pt;
     color: #022858;
-    font-size: 20px;
+    font-size: 1.2em;
     line-height: 30px;
 }
 

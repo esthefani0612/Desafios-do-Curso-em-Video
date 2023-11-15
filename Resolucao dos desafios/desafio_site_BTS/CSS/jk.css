@@ -2,11 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 
 body{
-    background-image: linear-gradient(to bottom, #ffffff, #a1b7ff, #7e9cff);
+    background-image: linear-gradient(to bottom, #ffffff, #a1b7ffb0, #7e9cffd2);
     background-attachment: fixed;
     margin: auto;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
+}
+
+
+.cooky{
+    text-align: justify;
+    margin-left: 382px;
+}
+.cooky h1{
+    font-size: 1.7em;
+    margin: auto;
+}
+.cooky img{
+    width: 110pt;
+    height: 120pt;
+    margin-left: 70pt;
+    margin-bottom: 60px;
+}
+.cooky p{
+    color: #022858;
+    font-size: 1.2em;
+    line-height: 30px;
+    text-indent: 30px; /*espaçamento na 1ª linha*/
+    width: 460pt;
 }
 
 
