@@ -74,8 +74,15 @@ h1{
     background-color: white;
     width: 900px;
     margin: auto;
+    margin-bottom: 11px;
 }
-.historia img{
+.historia img{ /*imagem do álbum*/
+    width: 306px;
+    height: 306px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.historia img:nth-child(3){/*imagem de cima*/
     border-radius: 20px;
     margin-bottom: 10px;
     width: 440px;
