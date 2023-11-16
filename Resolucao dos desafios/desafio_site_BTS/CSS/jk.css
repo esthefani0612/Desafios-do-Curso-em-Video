@@ -10,6 +10,7 @@ body{
 }
 
 
+
 .cooky{
     text-align: justify;
     margin-left: 382px;
@@ -26,11 +27,12 @@ body{
 }
 .cooky p{
     color: #022858;
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 30px;
     text-indent: 30px; /*espaçamento na 1ª linha*/
     width: 460pt;
 }
+
 
 
 .informacao_inicial{
@@ -49,8 +51,9 @@ body{
 .informacao_inicial p{
     line-height: 30px;
     padding: 20px;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
+
 
 
 h1{
@@ -59,6 +62,38 @@ h1{
     color: #022858;
     margin-left: 448pt;
 }
+
+
+.historia{
+    border-radius: 30px;
+    flex-direction: column;
+    box-shadow: 6px 6px 10px #495a94bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 900px;
+    margin: auto;
+}
+.historia img{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 440px;
+    height: 260px;
+}
+.historia p{
+    color: #022858;
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 27px;
+    width: 560pt;
+    margin-left: 15pt;
+    line-height: 30px;
+}
+.historia p + p{
+    margin-top: 3px;
+}
+
 
 
 .logos{
