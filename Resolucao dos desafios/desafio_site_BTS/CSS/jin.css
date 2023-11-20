@@ -25,10 +25,12 @@ h1{
     width: 80%;
     color: #022858;
     margin-left: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 .info_inicial img{
-
+    width: 290px;
+    height: 390px;
+    border-radius: 12px;
 }
 .info_inicial p{
     line-height: 30px;
@@ -47,4 +49,29 @@ h1{
     width: 47px;
     height: 46px;
     padding: 40px;
+}
+
+
+
+.mascote{
+    text-align: justify;
+    margin-left: 382px;
+}
+.mascote h1{
+    font-size: 1.7em;
+    margin: auto;
+}
+.mascote img{
+    border-radius: 12px;
+    width: 114pt;
+    height: 120pt;
+    margin-left: 70pt;
+    margin-bottom: 60px;
+}
+.mascote p{
+    color: #022858;
+    font-size: 1.3em;
+    line-height: 30px;
+    text-indent: 30px; /*espaçamento na 1ª linha*/
+    width: 460pt;
 }
