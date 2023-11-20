@@ -40,6 +40,60 @@ h1{
 
 
 
+.informacoes{
+    border-radius: 30px;
+    flex-direction: column;
+    box-shadow: 6px 6px 10px #495a94bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 11px;
+}
+.informacoes img:nth-child(3){ /*imagem de cima*/
+    width: 370px;
+    height: 220px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.informacoes img:nth-child(7){ /*imagem do album*/
+    width: 260px;
+    height: 260px;
+    margin-bottom: 10px;
+}
+.informacoes img{ /*imagem do serviçi militar*/
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 332px;
+}
+.informacoes p{
+    color: #022858;
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 27px;
+    width: 560pt;
+    margin-left: 15pt;
+    line-height: 30px;
+}
+.informacoes p + p{
+    margin-top: 3px;
+}
+.informacoes ul{
+    text-align: justify;
+    font-size: 1.2em;
+    color: #022858;
+    width: 526pt;
+    margin-left: 15pt;
+    line-height: 30px;
+}
+
+
+
+
+
 .logos{
     display: flex;
     align-items: center;
@@ -75,3 +129,5 @@ h1{
     text-indent: 30px; /*espaçamento na 1ª linha*/
     width: 460pt;
 }
+
+
