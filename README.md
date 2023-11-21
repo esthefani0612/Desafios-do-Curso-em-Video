@@ -15,6 +15,9 @@ O curso completo de HTML5 e CSS3, pode ser acessado pelo [Youtube](https://www.y
 ## 🛠 Tecnologias
 * ![HTML5](https://img.shields.io/badge/-HTML5-20232A?logo=html5)
 * ![CSS3](https://img.shields.io/badge/-CSS3-007ACC?logo=css3)
+  
+## IDEs
+* ![Visul Studio Code](https://img.shields.io/badge/-VS_Code-007ACC?logo=visual-studio-code)
 
 ## 💻Sistema Operacional
 * ![Linux](https://img.shields.io/badge/Linux-E34F26?logo=linux&logoColor=black&)
@@ -22,7 +25,6 @@ O curso completo de HTML5 e CSS3, pode ser acessado pelo [Youtube](https://www.y
 
 
  
-
 
 
 
