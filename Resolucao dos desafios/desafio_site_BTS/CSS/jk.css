@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 
 body{
-    background-image: linear-gradient(to bottom, #ffffff, #a1b7ffb0, #7e9cffd2);
+    background-image: linear-gradient(to bottom, #ffffff, #c7d4ffb0, #6781df9c);
     background-attachment: fixed;
     margin: auto;
     flex-direction: column;

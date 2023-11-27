@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 
 body{
-    background-image: linear-gradient(to bottom, #ffffff, #a1b7ffb0, #7e9cffd2);
+    background-image: linear-gradient(to bottom, #ffffff, #c7d4ffb0, #6781df9c);
     margin: auto;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
@@ -43,10 +43,11 @@ h1{
 
 .informacao{
     display: flex;
-    align-items: center;
-    width: 730px;
+    width: 80%;
     margin-left: 60px;
     margin-bottom: 60px;
+    align-items: center;
+    color: #022858;
 }
 .informacao img{
     width: 270px;
@@ -54,10 +55,9 @@ h1{
     border-radius: 12px;
 }
 .informacao p{
-    padding: 20px;
-    color: #022858;
-    line-height: 30px;
     font-size: 1.3em;
+    line-height: 30px;
+    padding: 20px;
 }
 
 
