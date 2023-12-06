@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+body{
+    background-image: linear-gradient(to bottom, #ffffff, #c7d4ffb0, #6781df9c);
+    background-attachment: fixed;
+    margin: auto;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos img{
+    width: 47px;
+    height: 46px;
+    padding: 40px;
+}
