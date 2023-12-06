@@ -37,6 +37,10 @@ h1{
     width: 300px;
     height: 450px;
 }
+.informacao img:nth-child(5){
+    width: 370px;
+    height: 360px;
+}
 .informacao p{
     color: #022858;
     font-size: 1.3em;
@@ -46,8 +50,13 @@ h1{
     margin-left: 15pt;
     line-height: 30px;
 }
-.informacap + p{
-    margin-top: 3px;
+.informacao ul{
+    text-align: justify;
+    font-size: 1.2em;
+    color: #022858;
+    width: 526pt;
+    margin-left: 15pt;
+    line-height: 30px;
 }
 
 
