@@ -20,6 +20,39 @@ h1{
 
 
 
+.informacao{
+    background-color: white;
+    border-radius: 30px;
+    flex-direction: column;
+    box-shadow: 6px 6px 10px #495a94bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    margin-bottom: 11px;
+    margin-left: 230px;
+}
+.informacao img{
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+}
+.informacao p{
+    color: #022858;
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 27px;
+    width: 560pt;
+    margin-left: 15pt;
+    line-height: 30px;
+}
+.informacap + p{
+    margin-top: 3px;
+}
+
+
+
+
 .inicio{
     display: flex;
     width: 80%;
@@ -29,7 +62,7 @@ h1{
     color: #022858;
 }
 .inicio img{
-    width: 274px;
+    width: 270px;
     height: 440px;
     border-radius: 12px;
 }
@@ -38,6 +71,7 @@ h1{
     line-height: 30px;
     padding: 20px;
 }
+
 
 
 
@@ -63,9 +97,10 @@ h1{
     margin: auto;
 }
 .mascote img{
-    width: 110pt;
+    width: 102pt;
     height: 110pt;
     margin-left: 70pt;
+    border-radius: 10px;
     margin-bottom: 60px;
 }
 .mascote p{
