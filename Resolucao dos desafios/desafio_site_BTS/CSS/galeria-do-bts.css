@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #ffffff, #c7d4ffb0, #6781df9c);
+}
+
+
+
+.seta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+.seta h1{
+    font-family: 'Graduate', serif;
+    font-size: 2.4em;
+    color: #022858;
+    margin-top: 22px;
+    text-align: center;
+}
+.seta img{
+    margin-top: 0px;
+    width: 37px;
+    height: 37px;
+    padding: 30px;
+}
