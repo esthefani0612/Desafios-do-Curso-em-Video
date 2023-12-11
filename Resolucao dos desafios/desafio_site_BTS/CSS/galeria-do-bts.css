@@ -14,13 +14,51 @@ body{
 
 
 .horizontal img{
-    width: 286px;
-    height: 152px;
+    border-radius: 15px;
+    width: 426px;
+    height: 252px;
     padding: 10px;
 }
 .horizontal img:nth-child(1){
-    width: 288px;
-    height: 162px;
+    width: 414px;
+    height: 252px;
+}
+.horizontal img:nth-child(4){
+    width: 430px;
+    height: 256px;
+}
+.horizontal img:nth-child(5){
+    width: 453px;
+    height: 256px;
+}
+.horizontal img:nth-child(6){
+    width: 400px;
+    height: 256px;
+}
+
+
+
+img:hover{
+    transform: scale(1.33);
+}
+
+
+.medio img{
+    border-radius: 15px;
+    width:400px;
+    height: 280px;
+    padding: 10.7px;
+}
+.medio img:nth-child(1){
+    width: 410px;   
+}
+.medio img:nth-child(2){
+    width: 464px;
+}
+.medio img:nth-child(4){
+    width: 400px;
+    height: 300px;
+    margin-left: 460px;
 }
 
 
@@ -35,12 +73,21 @@ body{
     font-family: 'Graduate', serif;
     font-size: 2.4em;
     color: #022858;
-    margin-top: 22px;
+    margin-top: 52px;
     text-align: center;
 }
 .seta img{
-    margin-top: 0px;
+    margin-top: 30px;
     width: 37px;
     height: 37px;
     padding: 30px;
+}
+
+
+
+.vertical img{
+    border-radius: 15px;
+    padding: 11px;
+    width: 300px;
+    height: 457px;
 }
