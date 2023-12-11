@@ -27,6 +27,7 @@ body{
 
 
 .fotodobts{
+    min-width: 308px;
     box-shadow: 6px 6px 14px #9e6fbdb0;
     background-color: #9e6fbd;
     width: 23.3%;
@@ -59,6 +60,7 @@ body{
 
 
 .fotosuga{
+    min-width: 285px;
     box-shadow: 6px 6px 14px #fb8c1caf;
     background-color: #f9a738;
     width: 21%;

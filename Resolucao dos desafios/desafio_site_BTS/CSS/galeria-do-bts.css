@@ -13,6 +13,18 @@ body{
 
 
 
+.horizontal img{
+    width: 286px;
+    height: 152px;
+    padding: 10px;
+}
+.horizontal img:nth-child(1){
+    width: 288px;
+    height: 162px;
+}
+
+
+
 .seta{
     display: flex;
     align-items: center;
