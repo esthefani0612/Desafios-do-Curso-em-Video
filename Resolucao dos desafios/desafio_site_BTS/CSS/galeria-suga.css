@@ -13,6 +13,18 @@ body{
 }
 
 
+.horizontal img{
+    border-radius: 15px;
+    width: 420px;
+    height: 262px;
+    padding: 10px;
+}
+
+
+img:hover{
+    transform: scale(1.33);
+}
+
 
 .titulo{
     display: flex;
