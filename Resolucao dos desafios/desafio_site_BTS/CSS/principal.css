@@ -20,6 +20,9 @@ body{
     margin: auto;
     padding: 20px;
 }
+.galeria a{
+    text-decoration: none;
+}
 .galeria .fotos img + img{
     margin-left: 9px;
 }
@@ -50,18 +53,27 @@ body{
     border-radius: 8px;
 }
 .galeria img:nth-child(6){
-    width: 230px;
+    width: 210px;
     height: 140px;
     border-radius: 8px;
 }
 .galeria h1{
-    margin-top: 10px;
+    margin-top: 3px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 1.3em;
-    color: rgb(74, 12, 102);
+    color: rgb(65, 77, 129);
     text-align: center;
 }
-
+.galeria h1:hover{
+    color: rgb(75, 5, 156);
+    text-decoration: underline;
+}
+.galeria h1::before{
+    content: '♡ ';
+}
+.galeria h1::after{
+    content: ' ♡';
+}
 
 
 h1{
