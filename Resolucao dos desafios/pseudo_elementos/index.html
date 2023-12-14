@@ -1,16 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo-elemento</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=< /span>família=&Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&família=Trabalho+Sans:ital,wght@0,400;0,500;0,600; 0.700;1.300;1.800&display=swap');
+        
+        a{
+            color: rgb(189, 122, 36);
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(58, 5, 85);
+        }
+        a::after{
+            content: '⇦';
+            color: rgb(58, 5, 85);
+        }
+        a::before{
+            content: '⇨';
+            color: rgb(58, 5, 85);
+        }
+        .especial:hover::after{
+            /*content: ' [link]⇦';*/
+            content: '⇦';
+            color: rgb(46, 145, 202);
+        }
+        .especial:hover::before{
+            content: '⇨';
+            color: rgb(46, 145, 202);
+        }
+        
+
+        body{
+            font-family: 'Courier Prime', monospace;
+            font-size: 1.2em;
+        }
+        
+    </style>
 </head>
 <body>
     <h1>Personalizando Links</h1>
     <ul>
-        <li>Acesse meu GitHub</li>
-        <li>Acesse meu Instagram</li>
-        <li>Linkedin</li>
+        <li>
+            <a class="especial" href="https://www.youtube.com/channel/UCZFWPqqPkFlNwIxcpsLOwew" target="_blank">
+                YouTube HS
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/esthefani0612" target="_blank">
+                Acesse meu GitHub
+            </a>
+        </li>
+        <li>
+            <a class="especial" href="https://www.instagram.com/esthefani_moraes" target="_blank">
+                Acesse meu Instagram
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/esthefani-moraes-a88408208/" target="_blank">
+                Linkedin
+            </a>
+        </li>
     </ul>
 </body>
 </html>
