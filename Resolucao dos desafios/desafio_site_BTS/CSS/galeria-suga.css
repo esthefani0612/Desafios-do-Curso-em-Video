@@ -13,6 +13,18 @@ body{
 }
 
 
+
+.quadrado img{
+    width: 270px;
+    height: 275px;
+    margin-left: 40px;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+
+
+
 .horizontal img{
     border-radius: 15px;
     width: 410px;
