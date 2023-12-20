@@ -75,3 +75,30 @@ h1{
     width: 647px;
     line-height: 30px;
 }
+
+
+
+.rm{
+    display: flex;
+    align-items: center;
+    display: flex;
+    box-shadow: 6px 6px 10px #495a94bd;;
+    background-color: white;
+    border-radius: 30px;
+    flex-direction: column;
+    margin-bottom: 11px;
+    margin: auto;
+    width: 900px;
+}
+.rm img:nth-child(3){
+
+}
+.rm p{
+    color: #022858;
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 27px;
+    width: 560pt;
+    margin-left: 8px;
+    line-height: 30px;
+}
